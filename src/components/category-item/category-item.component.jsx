@@ -1,7 +1,7 @@
 import "./category-item.scss";
 
 const CategoryItem = ({ category }) => {
-  const { id, title, image } = categorygi;
+  const { id, title, image } = category;
   return (
     <div className="category-container" key={id}>
       <div
